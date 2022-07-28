@@ -6,8 +6,7 @@ public class TestRunner {
 	
 	@Karate.Test
 	Karate runMyTest() {
-		return Karate
-				.run("classpath:features").tags("@ApiEndToEndTest");
+		return Karate.run("classpath:features").tags("@ApiEndToEndTest");
 	}
 
 }
